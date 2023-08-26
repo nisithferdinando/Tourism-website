@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap");
+*{
+    margin: 0;
+}
+.navi{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.navi li{
+    float:left;
+}
+ul.navi li a{
+    display: inline-block;
+    text-align: center;
+    color: rgb(19, 53, 46);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+.active{
+    background-color: rgba(40, 193, 204, 0.737);
+    border-radius: 2px;
+}
+ul.navi li a.navibar:hover{
+    color: rgba(23, 92, 78, 0.433);
+}
+.bgimage{
+    background-image: url(background.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.cont{
+    width: auto;
+    padding: 10px 0 0 10px;
+    
+}
+.content{
+background-color:antiquewhite;
+margin: auto;
+}
+.topic{
+    color: #fff;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 60px;
+    cursor: default;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   padding: 30px;
+   margin-top: 20px;
+}
+.gallery img{
+    width: 350px;
+    height: 250px;
+    transition: 0.4s;
+    scale: 0.9;
+}
+.gallery img:hover{
+    scale: 1.0;
+}
+footer{
+  background-color: rgb(56, 22, 22);
+  padding: 50px;
+}
+.media{
+  display: block;
+  float: right;
+  margin-top: -10px;
+}
+.media .sub{
+  padding-left: 25px;
+  color:white;
+  font-size: 16px;
+}
+.media a img{
+  align-content: center;
+  width: 30x;
+  height: 30px;
+  padding: 8px;
+  opacity: 0.4;
+  transition: 0.5s;
+  float: right;
+}
+.media a img:hover{
+  opacity: 1.0;
+}
+ p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.contact{
+  float: left;
+  margin-top: -40px;
+}
+  .contact ul li{
+    color: #fff;
+    font-size: 16px;
+    list-style: none;
+    padding-top: 5px;
+  }
+  .contact ul li a{
+    text-decoration: none;
+    color: #ffffffb0;
+
+  }
+  .contact ul li a:hover{
+    text-decoration: underline;
+    
+  }
